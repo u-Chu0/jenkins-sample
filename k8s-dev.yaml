@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: ctaotao/jenkins-demo:<BUILD_TAG>
+      - image: registry.cn-hangzhou.aliyuncs.com/personreg/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
